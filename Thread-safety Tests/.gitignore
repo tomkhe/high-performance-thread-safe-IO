@@ -1,9 +1,0 @@
-*.o
-*.out
-.deps
-ftxunlocked
-ftxxfer
-ftxrocket
-ftxblockchain
-newaccounts.fdb
-*.db
