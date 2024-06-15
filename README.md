@@ -1,5 +1,5 @@
 # High-performance Thread-safe IO
-This is a high-performance C++ implementation of IO functions like read and write using memory-mapping and (occasionally) caching. Implementations are thread-safe and substantially faster than stdio counterparts. Main features include:
+This is a high-performance C++ implementation of IO functions like read and write using a hybrid memory-mapping and caching scheme. Implementations are thread-safe and substantially faster than stdio counterparts. Main features include:
 - `io61_read`: equivalent of `fread`; 
 - `io61_write`: equivalent of `fwrite`; 
 - `io61_seek`: equivalent of `fseek`. 
